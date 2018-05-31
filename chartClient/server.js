@@ -2,9 +2,9 @@ const liveServer = require('live-server');
 const openfinLauncher = require('openfin-launcher');
 const path = require('path');
 
-const configPath = path.resolve('src/app.json');
+const configPath = path.resolve('public/app.json');
 const serverParams = {
-    root: path.resolve('src'),
+    root: path.resolve('public'),
     port: 5558,
     open: false,
     logLevel: 2
