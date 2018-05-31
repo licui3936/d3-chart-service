@@ -1,0 +1,20 @@
+{
+    "startup_app": {
+        "name": "D3ChartService",
+        "url": "http://localhost:5559/index.html",
+        "uuid": "D3ChartService",
+        "applicationIcon": "http://localhost:5559/favicon.ico",
+        "autoShow": true,
+        "saveWindowState": true
+    },
+    "runtime": {
+        "arguments": "--remote-debugging-port=9090",
+        "version": "canary"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "D3 Chart Service",
+        "icon": "http://localhost:5559/favicon.ico",
+        "name": "Openfin D3 Chart Service"
+    }
+}
