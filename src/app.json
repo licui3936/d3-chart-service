@@ -1,0 +1,20 @@
+{
+    "startup_app": {
+        "name": "D3Chart",
+        "url": "http://localhost:5558/index.html",
+        "uuid": "OpenfinPOC",
+        "applicationIcon": "http://localhost:5558/favicon.ico",
+        "autoShow": true,
+        "saveWindowState": true
+    },
+    "runtime": {
+        "arguments": "--remote-debugging-port=9090",
+        "version": "canary"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "D3 Chart",
+        "icon": "http://localhost:5558/favicon.ico",
+        "name": "Openfin POC"
+    }
+}
