@@ -7,5 +7,6 @@ A simple d3 chart application. The purpose of this repository is to allow users 
 
 * Clone this repository: `git clone https://github.com/licui3936/d3-chart-service`
 * Install the dependencies: `cd d3-chart-service` & `npm install`
-* Start the live-server and launch the application: `npm start`
-* Add your Javascript code to `main.js` and your HTML to `index.html`
+* Build the files: `npm run build`
+* Start the server and launch the application: `npm start`
+
