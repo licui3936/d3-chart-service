@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "lib": [
+            "dom",
+            "es7"
+        ],
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "declaration": true,
+        "outDir": "out",
+        "declarationDir": "out/types",
+        "strictNullChecks": false,
+        "sourceMap": true,
+        "removeComments": false
+    },
+    "exclude": [
+        "node_modules",
+        "out"
+    ]
+}

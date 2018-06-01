@@ -5,7 +5,7 @@
         "uuid": "D3ChartService",
         "applicationIcon": "http://localhost:5559/favicon.ico",
         "autoShow": true,
-        "saveWindowState": true
+        "saveWindowState": false
     },
     "runtime": {
         "arguments": "--remote-debugging-port=9090",

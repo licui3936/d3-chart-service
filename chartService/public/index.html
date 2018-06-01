@@ -6,40 +6,7 @@
   <title>OpenFin D3 Chart Service</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-
-.axis {
-  font: 10px sans-serif;
-}
-
-.axis-title {
-  text-anchor: end;
-}
-
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-
-.axis--x path {
-  display: none;
-}
-
-.axis--y .tick:not(.tick--one) line {
-  stroke-opacity: .15;
-}
-
-.line {
-  fill: none;
-  stroke: steelblue;
-  stroke-width: 1.5px;
-  stroke-linejoin: round;
-  stroke-linecap: round;
-}
-
-</style>  
+  <link href="css/chart.css" rel="stylesheet">
 </head>
 <body>
   <div>
@@ -49,7 +16,7 @@
       Current runtime version: <span id="of-version"></span>
     </p>
   </div>
-  <script src="js/main.js"></script>
+  <script src="service-bundle.js"></script>
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script>
 

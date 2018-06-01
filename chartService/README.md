@@ -2,11 +2,9 @@
 
 A simple d3 chart service. 
 
-## Running Locally
-### Build
-- Node 8.11 LTS.
+### How to use this:
 
-```bash
-npm install
-npm start
-```
+* Clone this repository: `git clone https://github.com/licui3936/d3-chart-service`
+* Install the dependencies: `cd d3-chart-service/chartService` & `npm install`
+* Build the files using webpack: `npm run build`
+* Start the server and launch the application: `npm start`
