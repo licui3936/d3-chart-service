@@ -1,16 +1,16 @@
 import * as d3 from 'd3';
 
 // @ts-ignore: type definition for service doesn't exist in openfin
-const serviceClient: Promise<fin.OpenFinServiceClient> = fin.desktop.Service.connect({uuid: "D3ChartService", name: "D3ChartService"});
+const serviceClient: Promise<Client> = fin.desktop.Service.connect({uuid: "D3ChartService", name: "D3ChartService"});
 // @ts-ignore: type definition for service doesn't exist in openfin
-serviceClient.then((service: fin.OpenFinServiceClient) => {
+serviceClient.then((service: Client) => {
     console.log("Service ready " + Date.now());
     //(window as any).service = service;
-}, (err) => console.log(err));
+}, () => console.log('could not connect to service'));  // set 'wait:false' in connection options will print out error message if the service is not started. By default, wait is set to true. 
 
 export async function getData(symbol: string): Promise<any> {
     // @ts-ignore: type definition for service doesn't exist in openfin
-    const service: fin.OpenFinServiceClient = await serviceClient;
+    const service: Client = await serviceClient;
     return service.dispatch("D3Chart.getData", symbol).catch((err:any) => console.log(err));
 }
 
