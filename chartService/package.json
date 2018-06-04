@@ -1,5 +1,5 @@
 {
-  "name": "D3-Chart-Service",
+  "name": "D3ChartService",
   "version": "0.0.0",
   "main": "server.js",
   "scripts": {
@@ -7,10 +7,12 @@
     "build": "webpack"
   },
   "devDependencies": {
+    "@types/d3": "^3.5.36",
     "@types/openfin": "^16.0.1",
     "css-loader": "^0.28.11",
-    "extract-text-webpack-plugin": "^3.0.2",
+    "d3": "^3.5.17",
     "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^3.0.2",
     "openfin-launcher": "^1.3.12",
     "source-map-loader": "^0.2.3",
     "style-loader": "^0.20.3",
