@@ -17,9 +17,13 @@ export class ChartService {
         return new Promise((resolve, reject) => {
             if (symbol) {
                 //todo: get actual data
+                /*
                 d3.tsv('data.tsv', (data: any) => {
                     resolve(data);
-                });          
+                });*/
+                d3.csv(symbol + '.csv', (data: any) => {
+                    resolve(data);
+                }); 
 
             } else {
                 reject(new Error("Failed to get data for " + symbol));

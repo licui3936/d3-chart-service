@@ -11,12 +11,16 @@
 <body>
   <div>
     <h1>D3 Chart</h1>
-    <p>This is a d3 chart OpenFin application.</p>
+    <p>This is an openfin d3 chart application .</p>
     <p id="version-number-container">
       Current runtime version: <span id="of-version"></span>
     </p>
     <p>
-      Symbol: <input id='symbolId' type="text" value="aapl" maxlength="500"><button id='drawChartBtn'>Draw Chart</button>
+      Select a symbol: <select id='symbolSelect'>
+          <option value="AAPL">AAPL</option>
+          <option value="AMZN">AMZN</option>
+          <option value="GOOG">GOOG</option>
+        </select><button id='drawChartBtn'>Draw Chart</button>
     </p>
   </div>
   <script src="client-bundle.js"></script>
